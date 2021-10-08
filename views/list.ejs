@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/styles1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="content">
+      <div class="main">
+
+        <h1><%=qry %></h1>
+        <img src="<%=icn%>">
+
+        <h3>Temperature : <%=tmp %></h3>
+        <hr />
+        <h3>Weather Currently : <%=desc%></h3>
+        <hr  />
+        <h3>Feels like : <%=feel%></h3>
+      </div>
+
+      <div id="earth">
+      </div>
+    </div>
+
+<%- include("footer") -%>
